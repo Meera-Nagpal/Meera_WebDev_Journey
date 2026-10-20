@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More on CSS selectors</title>
+    <style>
+        .box:first-child {
+            background-color: rgb(184, 238, 238);
+        }
+
+        /* .box::first-line{
+            color: rgb(236, 82, 82);
+        } */
+        .boxes * {
+            color: rgb(31, 8, 161)
+        }
+
+        /* p,a,.box ,[data-color="primary"]{
+            padding-top: 25px;
+        }  */
+         /* .box:nth-child(odd){
+            background-color: rgb(27, 27, 124);
+         }  */
+         /* .box:nth-last-child(1){
+            background-color: rgb(179, 179, 207);
+          }  */
+        .boxes::before {
+            content: "Harry is good";
+        }
+
+        .boxes::after {
+            content: "Meera I am"
+
+        }
+
+        ::selection {
+            background-color: rgb(20, 97, 168);
+            color: aqua;
+        }
+
+        .box::first-letter {
+            font-size: 45px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-weight: bold;
+            font-family: cursive;
+            color: brown;
+        }
+
+        input::placeholder {
+            size: 50px;
+            color: blue;
+            background-color: chartreuse;
+
+
+        }
+
+        input {
+            width: max-content;
+            height: 70px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="boxes">
+
+
+        <div class="box">Hey I am a boss baby 1!</div>
+        <div class="box">Hey I am a boss baby 2!</div>
+        <div class="box">Hey I am a boss baby 3!</div>
+    </div>
+    <input type="text" placeholder="Type Karna na Chamar dekh kya rha!">
+</body>
+
+</html>

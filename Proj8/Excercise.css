@@ -1,0 +1,32 @@
+Body{
+    background-color: rgb(150, 112, 29);
+}
+span{
+    background-color: rgb(215, 230, 18);
+    font-size: larger;
+    font-weight: 900;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: oblique;
+}
+div{
+    background-color: aqua;
+    font-size: larger;
+    font-weight: 900;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: oblique;
+}
+h1{
+    background-color: antiquewhite;
+    font-size: larger;
+    font-weight: 900;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: oblique;
+}
+
+h2{
+    background-color: beige;
+    font-size: larger;
+    font-weight: 900;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: oblique;
+}

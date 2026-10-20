@@ -1,0 +1,41 @@
+# Node dependencies
+node_modules/
+**/node_modules/
+
+# Executables & installer packages
+*.exe
+*.msi
+
+# Large compressed archives & game files (>100MB GitHub limit, e.g. Pacify game, Sigma zip)
+*.rar
+*.zip
+*.7z
+*.tar
+*.gz
+
+# Production builds
+dist/
+**/dist/
+build/
+**/build/
+out/
+**/out/
+.next/
+**/.next/
+
+# Environment files
+.env
+.env.*
+*.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# System & IDE files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

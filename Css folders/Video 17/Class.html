@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selectors and class</title>
+    <style>
+    .red{
+        background-color: rgb(233, 144, 130);
+        font-family: Verdana, Geneva, Tahoma, sans-serif
+        ;font-size: larger; 
+        color: black;
+    }
+    .green{
+        background-color: rgb(127, 255, 127);
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: larger;
+    }
+    
+    
+   a :visited{
+    color: rgb(175, 45, 71);
+   }
+   a:link{
+    color: darkgreen;
+   }
+   a:active{
+    background-color: crimson;
+   }
+   a:hover{
+    background-color: yellow    ;
+   }
+   p:first-child{
+    background-color: aqua;
+   
+   }
+  </style>
+</head>
+
+<link rel="icon" href="MeeraParth1.ico" type="image/x-icon">
+
+<body>
+    <main class="one">
+        <p> hello I am first</p>
+        <p>hello I am second</p>
+    </main>
+    <span class="red">Hello my cute little red flags!</span>
+        
+    <br>
+    <span class="green">Hello my cute little green flags!</span>
+    <br>
+    <div>
+    <a href="https://www.google.com" target="_parent">Google</a>
+    <a href="https://www.facebook.com">facebook</a>
+    </div>
+</body>
+</html>

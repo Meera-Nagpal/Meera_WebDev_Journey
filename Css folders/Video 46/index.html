@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Animations</title>
+    <style>
+        .box {
+            height: 45px;
+            width: 34px;
+            background-color: rgb(151, 151, 8);
+            border: 4px double rgb(255, 47, 99);
+            /* animation-name: MeerakaAnimation;
+            animation-duration:3s ;
+            animation-timing-function: cubic-bezier(0.4, 0.07, 0.07, 1.42);;
+            animation-delay:1s ;
+            /* animation-fill-mode: ; */
+            /* animation-iteration-count: 2;  */
+            /* animation-direction: alternate-reverse; */
+            /* animation-play-state: paused; */
+
+            animation: MeerakaAnimation 3s linear 1s infinite, alternate-reverse Meera 3s linear 1s infinite;
+        }
+
+
+
+        .container {
+            height: 100vw;
+            width: 100vh;
+            background-color: rgb(9, 61, 173);
+            border: 4px double rgba(12, 10, 10, 0.041);
+        }
+
+
+
+        @keyframes MeerakaAnimation {
+            from {
+
+                background-color: yellow;
+            }
+
+            to {
+                background-color: aqua;
+                transform: translateX(100px);
+
+            }
+        }
+
+        @keyframes Meera {
+            0% {
+                transform: rotateY(100deg);
+                Y 20%Y transform: rotateY(200deg);
+                Y 80%Y transform: rotateY(350deg);
+                Y 100%Y transform: rotateY(360deg);
+            }
+
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box translate">
+            Box
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,31 @@
+Body{
+    background-color: beige;
+     font-style: italic;
+     font-size: larger; 
+     font-weight: 600;
+     /*border: black;
+     border: 0cqi;}*/
+/*p{
+    background-color: rgb(255, 251, 0);}
+
+a {
+    background-color: rgb(12, 189, 130);}
+    
+div{
+    background-color: burlywood;
+}
+span{
+    background-color: rgb(133, 94, 158);
+}*/
+.red{
+    color:  red;
+}
+.bg-black{
+    color: black 
+}
+#firstdiv{
+    background-color: rgb(12, 169, 190);
+}
+#seconddiv{
+    background-color: blueviolet;
+}

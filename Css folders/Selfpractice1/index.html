@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Self Practice</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@400..800&family=Mozilla+Headline:wght@200..700&display=swap');
+
+        .meera {
+            background-color: aquamarine;
+            padding-top: 0%;
+            padding: 344px;
+            margin: 10px;
+            border-radius: 750px;
+            font-size: 300px;
+            font-family: cursive;
+            font-weight: 200px;
+            border-style: ridge;
+            border-color: black;
+            border-width: 25px;
+            border-collapse: collapse;
+            font-variant: normal;
+        }
+
+        .parth {
+            background: #9bb916 scroll url(M&P.JPG) no-repeat right;
+            padding: 233px;
+            margin: 20px;
+            border-style: inset;
+            border-color: blueviolet;
+            border-radius: 500px;
+            font-size: 100px;
+            font-family: cursive;
+            font-weight: bold;
+            border-width: thick;
+            border-width: 30px;
+            border-top-style: none;
+            border-bottom-width: 50px;
+            border-spacing: 10px;
+            border-collapse: collapse;
+            width: min-content;
+            font-variant: small-caps;
+            text-decoration: overline;
+            text-align: center;
+            text-overflow: clip;
+        }
+
+        .Kheera {
+            position: relative;
+            /* Needed so ::before is positioned correctly */
+            background-color: rgb(255, 241, 49);
+            /* Yellow stays visible */
+            margin: 50px;
+            padding: 300px 50px 300px 350px;
+            /* top | right | bottom | left */
+            border-radius: 750px 800px 600px 500px;
+            border-bottom-style: dashed;
+            border-width: 50px;
+            border-top-color: chartreuse;
+            border-bottom-color: darkred;
+            font-size: 70px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-weight: bold;
+            color: black;
+            margin-right: 200px;
+            border-collapse: collapse;
+            overflow: hidden;
+            text-decoration: wavy;
+            text-align: left;
+            /* So ::before stays inside the border shape */
+        }
+
+        .Kheera::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+
+            /* Image only layer */
+            background-image: url(Maamu.JPG);
+            background-repeat: no-repeat;
+            background-position: left;
+            background-size: cover;
+
+            /* Apply ALL effects together */
+            filter: grayscale(100%) contrast(30%) saturate(30%) invert(40%) brightness(50%);
+
+            z-index: -1;
+            /* Keep it behind the text */
+        }
+
+        .Kheera:hover {
+            background-color: rgb(11, 226, 226);
+
+        }
+
+
+
+
+        /* This can be removed since padding above already sets it */
+
+
+
+
+        .Heera {
+            background-color: hsl(249, 80%, 45%);
+            border: 500px double rgb(214, 10, 44);
+            border-width: 70px;
+            font-size: 100px;
+            font-family: cursive;
+            font-weight: 700;
+            border-collapse: collapse;
+            width: min-content;
+            text-align: right;
+            text-transform: lowercase;
+            line-height: 4;
+            width: fit-content;
+        }
+
+
+        .Sheera {
+            background-color: hsla(180, 75%, 50%, .6);
+            font-size: 100px;
+            font-family: cursive;
+            font-weight: 700;
+            border-style: double;
+            border-width: 70px;
+            border-color: rgb(50, 20, 220);
+            width: fit-content;
+            text-decoration: wavy;
+            text-align: justify;
+            text-transform: capitalize;
+            line-height: 3;
+            text-shadow: 14px 15px 14px rgb(24, 209, 24);
+
+        }
+
+        .Sheera:hover {
+            background-color: rgb(233, 61, 9);
+        }
+
+        .Areem {
+            background-color: rgba(101, 22, 153, 0.75);
+           
+            border: 500px double rgb(214, 211, 10);
+            border-width: 70px;
+            font-size: 100px;
+            font-family: "Baloo Bhaijaan 2", sans-serif;
+            font-weight: 700;
+            border-collapse: collapse;
+            width: fit-content(800px);
+            text-decoration: underline;
+            text-transform: uppercase;
+            line-height: 5;
+            text-shadow: 15px 16px 14px yellow
+        }
+
+        .Areem:hover {
+            border: 50px ridge black;
+        }
+
+        img {
+            width: 1000px;
+            height: 800px;
+            padding: 150px;
+            margin: 20px;
+            border: 10px;
+            border-style: double;
+            border-color: rgb(214, 10, 44);
+            border-collapse: collapse;
+            border-width: 45px;
+            background-color: rgb(23, 221, 23);
+            border-radius: 500px;
+
+
+        }
+
+        img:hover {
+            background-color: yellow;
+            filter:contrast(50%);
+            filter: blur(30%);
+            filter: brightness(30%);
+            filter: contrast(30%);
+        }
+        
+
+        #c1 {
+            color: white;
+            font-size: 100px;
+            text-align: center;
+            border-style: solid;
+            border-width: 10px;
+            background-color: rgb(189, 12, 109);
+            border-color: darkred;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-weight: bold;
+            margin: 10px;
+            text-shadow: 0px 0px    0px black ;
+
+            padding: 100px 50px 100px 50px;
+            border-radius: 100px 100px 100px 100px;
+        }
+        #c1:hover{
+            background-color: blue;}
+        #c1:visited{
+            background-color: rgb(255, 0, 0);
+
+        }
+
+        #c2 {
+            color: white;
+            text-align: centre;
+            text-decoration-line: underline;
+            text-shadow: 10px 10px 0px black;
+            font-size: 100px;
+
+            border-style: solid;
+            border-width: 10px;
+
+
+
+            border-top-color: chartreuse;
+            border-bottom-color: darkred;
+
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-weight: bold;
+            margin: 10px;
+            padding: 100px 300px 150px 300px;
+            border-radius: 50px 50px 50px 50px;
+            background-color: rgb(168, 4, 4);
+        }
+        #c2:hover{
+            background-color: greenyellow;}
+        #c2:visited{
+            background-color: rgb(69, 12, 107);
+        
+            
+        }
+
+        #c3 {
+            color: white;
+            font-size: 100px;
+            text-align: center;
+            border-radius: 750px 800px 600px 500px;
+            border-style: solid;
+            border-width: 30px;
+            border-color: black;
+            background-color: rgb(18, 86, 233);
+            width: 500px;
+
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-weight: bold;
+            margin: 10px;
+            padding: 100px 50px 100px 50px;
+            border-radius: 100px 100px 100px 100px;
+        }
+        #c3:hover{
+            background-color: rgb(19, 221, 137);
+        }
+        #c3:visited{
+            background-color: rgb(73, 19, 221);
+        }
+       
+    </style>
+
+
+</head>
+
+<body>
+    <div class="meera" style="cursor: no-drop;">Hello this world</div>
+    <p class="parth" style="cursor: col-resize;">This is Parth Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Aut consequuntur reiciendis
+        illo error, blanditiis ipsum necessitatibus. Quisquam nobis rerum temporibus iure illum sapiente aut aliquam ab
+        consequatur, repellat beatae ipsam, voluptatum enim. Corrupti totam autem numquam odio velit ratione amet.
+        Quisquam itaque exercitationem quasi velit, veritatis cum, aut veniam eligendi nostrum quos aliquam inventore.
+        Qui sint doloremque molestiae porro sapiente iste placeat nobis nostrum debitis assumenda, laborum, modi eos
+        dolor nam unde hic obcaecati? Doloribus quis architecto officiis.</p>
+    <div class="Kheera" style="cursor: all-scroll;">
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This
+        is Kheera Lorem ipsum dolor sit, amet consectetur adipisicing elit. Beatae totam ipsa quibusdam dolor, minima
+        quisquam? Exercitationem voluptatem voluptatibus sint sapiente amet laudantium inventore tenetur, fugit magnam
+        itaque corrupti harum! Ducimus facilis nobis soluta ea aliquid laboriosam error eum consequatur architecto
+        doloribus deserunt iste illo maiores esse harum dignissimos ad, ratione numquam quisquam rerum quod minus earum.
+    </div>
+    <div class="Heera" style="cursor: wait;">This is Heera</div>
+    <img src="MeeraParth.JPG" alt="Not available" style="cursor: crosshair;">
+    <div class="Sheera" style="cursor: e-resize;">This is Sheera Lorem ipsum dolor sit amet consectetur, adipisicing
+        elit. Quasi eius cum, ea
+        atque minus fugiat culpa quaerat deserunt unde doloremque dolore quia qui ut assumenda temporibus quisquam quis
+        autem ratione sunt voluptatem aliquam quibusdam hic. Recusandae consequatur, reiciendis ullam aliquam temporibus
+        soluta, corrupti doloribus, tenetur quia cum nobis commodi ut ipsum itaque enim nihil obcaecati aperiam?</div>
+    <div class="Areem" style="cursor: pointer;">This is Areem Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+        A ab aliquid quasi facere
+        pariatur adipisci sed at repellat illo quaerat voluptate magni officiis, natus nostrum eum repellendus
+        cupiditate corrupti iusto doloribus ullam. Fugit, tempora quasi? Natus, saepe cum. Perspiciatis quis a quo natus
+        molestias non.</div>
+
+    <a href="https://www.instagram.com/mee_ra1107/" id="c1" target="_blank">instagram</a>
+
+    <a href="https://www.youtube.com" id="c2" target="_blank">Youtube</a>
+
+    <a href="https://www.facebook.com" id="c3" target="_blank">facebook</a>
+</body>
+
+</html>

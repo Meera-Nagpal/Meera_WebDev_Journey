@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exercise 6</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400..800&family=Baloo+Bhaijaan+2:wght@400..800&display=swap');
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background-color: black;
+    }
+
+    nav {
+      padding: 20px 40px;
+      background-color: white;
+      display: flex;
+      justify-content: space-between; /* Logo left, menu center, right section */
+      align-items: center;
+    }
+
+    /* Logo */
+    .logo {
+      font-family: "Baloo Bhaijaan 2", sans-serif;
+      font-size: 28px;
+      font-weight: bold;
+    }
+
+    /* Menu in the middle */
+    ul {
+      display: flex;
+      list-style: none;
+      gap: 40px;
+      font-size: 20px;
+      font-family: "Baloo Bhaijaan 2", sans-serif;
+    }
+
+    /* Right side (Buy + Language + Flag) */
+    .right-section {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+    }
+
+    .buy-now {
+      font-size: 18px;
+      padding: 8px 20px;
+      border: 2px solid black;
+      cursor: pointer;
+      font-weight: bold;
+      background: white;
+      transition: 0.3s;
+    }
+
+    .buy-now:hover {
+      background: orangered;
+      color: white;
+    }
+
+    .lang {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 18px;
+      font-family: "Baloo Bhaijaan 2", sans-serif;
+    }
+
+    .lang img {
+      width: 25px;
+      height: 25px;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <!-- Left -->
+      <div class="logo">UltraEdit</div>
+
+      <!-- Middle -->
+      <ul>
+        <li>Products</li>
+        <li>Resources</li>
+        <li>Pricing</li>
+        <li>Our company</li>
+      </ul>
+
+      <!-- Right -->
+      <div class="right-section">
+        <button class="buy-now">BUY NOW</button>
+        <div class="lang">
+          <span>English</span>
+          <img src="https://cdn-icons-png.flaticon.com/512/59/59762.png" alt="flag">
+        </div>
+      </div>
+    </nav>
+  </header>
+</body>
+
+</html>

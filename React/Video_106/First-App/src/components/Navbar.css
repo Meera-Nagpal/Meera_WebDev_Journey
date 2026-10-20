@@ -1,0 +1,21 @@
+body{
+    background-color: palegreen;
+}
+nav{
+    margin:0px;
+    padding:10px;
+    font-weight: bolder;
+    color:black;
+    font-size: 30px;
+    position:fixed;
+    top:0;
+}
+nav ul{
+    display:flex;
+}
+li{
+    list-style-type: disc;
+}
+ul{
+    gap:30px;
+}

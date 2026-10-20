@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Queries</title>
+    <style>
+        body {
+            background-color: orange;
+        }
+        @media screen and (orientation:landscape) {
+            body{
+                border:10px solid purple;
+            }
+            
+        }
+
+        @media only screen and (max-width : 455px) {
+            body {
+                background-color: beige
+            }
+
+            .boxes {
+               
+                flex-direction: column;
+                flex-wrap: wrap;
+
+
+            }
+
+
+        }
+
+.boxes{
+    display: flex;
+}
+
+
+        .box {
+            width: 344px;
+            height: 344px;
+            background-color: steelblue;
+            padding: 23px;
+            margin: 23px;
+
+        }
+    </style>
+</head>
+<div>
+    Hey Google!
+</div>
+<div class="boxes">
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"> </div>
+
+</div>
+
+<body>
+
+</body>
+
+</html>

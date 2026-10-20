@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox</title>
+    <style>
+        .class {
+            border: 10px double rgb(235, 52, 83);
+            display: grid;
+            grid-template-columns: 200px 250px;
+            height: 1000px;
+            grid-template-rows: 200px 200px 200px;
+            /* row-gap: 40px;
+            column-gap: 10px; */
+            gap: 30px 40px;
+
+
+
+        }
+
+        .item {
+            height: 92px;
+            width: 92px;
+            border: 4px ridge greenyellow;
+            background-color: rgb(99, 189, 224);
+            padding: 25px;
+            margin: 10px;
+
+        }
+
+        .item-1 {
+            grid-row: 1/2;
+            grid-column: 1/2;
+
+        }
+
+        .item-3 {
+            grid-row: 1/2;
+            grid-column: 1/2;
+        }
+
+        
+    </style>
+</head>
+
+<body>
+    <div class="class">
+        <div class="item item-0">0</div>
+        <div class="item item-1">1</div>
+        <div class="item item-2 ">2</div>
+        <div class="item item-3">3</div>
+
+    </div>
+
+</body>
+
+</html>

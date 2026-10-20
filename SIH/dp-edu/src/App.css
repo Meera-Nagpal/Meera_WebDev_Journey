@@ -1,0 +1,9 @@
+/* Optional minimal styles. Prefer Tailwind utilities in components. */
+
+:root {
+  --brand: #059669; /* emerald-600 */
+}
+
+a {
+  text-decoration: none;
+}

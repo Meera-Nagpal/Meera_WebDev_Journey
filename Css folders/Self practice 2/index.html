@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Self Practice</title>
+     @import url'https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400..800&family=Baloo+Bhaijaan+2:wght@400..800&family=Mozilla+Headline:wght@200..700&display=swap'
+
+    <style>
+      
+
+        .Subheading {
+            font-size: 50px;
+            display: inline;
+            background-color: cornflowerblue;
+            font-family: "Baloo Bhaijaan 2", sans-serif;
+
+        }
+
+
+        .all {
+            display: inline;
+            font-size: 30px;
+            font-weight: 600;
+            background-color: rgb(151, 218, 106);
+             font-family: "Baloo Bhaijaan 2", sans-serif;
+                
+            }
+
+        
+
+        input,
+        select {
+            width: fit-content;
+            height: 40px;
+            font-family: cursive;
+            text-align: center;
+            text-shadow: 6px 7px 6px blueviolet;
+            font-family: "Baloo Bhaijaan 2", sans-serif;
+
+
+
+        }
+
+        .gender {
+            background-color: rgb(124, 240, 124);
+            display: inline;
+            text-shadow: 4px 2px 5px rgb(65, 16, 16);
+            font-family: "Baloo Bhaijaan 2", sans-serif;
+        }
+
+        ::placeholder,
+        option {
+            font-size: 20px;
+            background-color: pink;
+            color: black;
+            width: fit content;
+            text-overflow: ellipsis;
+            height: 40px
+        }
+
+        textarea {
+            height: 50px;
+            font-family: cursive;
+            overflow: hidden;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <h1>Form Filling</h1>
+        <p class="Subheading">Fill you details chupchap below varna tere ghar mai ghuske maarungi!!-_-</p>
+
+    </div>
+    <form action="meera.com" method="post">
+        <div class="all">
+
+            <p class="gender">Naam likh saale chupchap!! :<br>
+                <input type="text" placeholder="Fill Kar chamaar apna naam" autofocus><br>
+            </p>
+            <p class="gender">Email likhle mere bhai:<br>
+                <input type="email" placeholder="Email likh suar"><br>
+            </p>
+            <p class="gender">Number bol tabhi to baat karenge saale:<br>
+                <input type="number" placeholder="Number pls:))" required><br>
+            </p>
+            <p>Gender Btao bhai-...-:<br>
+                <select name="gender" class="gender">
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+
+                    <option value="others">Chhakka/Lesbian/Gay/Bi</option>
+                </select><br>
+            </p>
+
+            <p>Paasword de apnahacker hun mai!</p>
+
+            <input type="password" placeholder="password pls" pattern="DDMMYYY">
+            </p>
+            Comments mai bhauk kutte!!
+            <textarea name="comment" rows="4" column="50" placeholder="Enter your comments"></textarea><br>
+            Ek aur baar gender btao cuz ye mera ilaaka hai-_-<br>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label>
+
+            <input type="radio" id="others" name="gender" value="others">
+            <label for="others">Others</label><br>
+            <input type="checkbox" id="subscribe" name="subscribe" value="yes">Subscribe kiya to click karo chamaro
+            suaro!!<label for="subscribe"></label>
+            <p>Select one of your fav color</p><label for="color"></label>
+            <input type="color" id="color"><br>
+            <input type="submit" :>
+            <input type="reset"><br>
+            <input type="button">Click here to visit out website.<br>
+            Enter you DOB :<input type="date"><br>
+            Enter your viral video link<input type="url">
+            Attach your Photo: <input type="file">
+
+        </div>
+    </form>
+
+</body>
+
+</html>
