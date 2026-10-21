@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🌐 Meera's Web Development Journey & Projects
+# 🌐 My Web Development Journey & Projects
 
 ### 🚀 A comprehensive showcase of production-ready platforms, hackathon systems, modern React applications, and foundational web engineering.
 
